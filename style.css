@@ -6,17 +6,17 @@
 
 /*This class emboides the entire page and wraps it in a big grid*/
 .page-wrapper {
-    display: grid;
-    gap: 10px;
-    padding: 10px;
+    display: grid; /*Wraps entire page in a grid*/
+    gap: 10px; /*Each cell of the grid has a 10px gap*/
+    padding: 10px; /*Each cell has 10px of padding*/
 }
 
 /*The ">" specifies the h1 of the header section of the intro class specfically*/
 /*Wraps the header into a box with a border, unique font size, centered text, colored background and fitted margin*/
 .intro > header > h1 {
-    background-color: rgb(234, 189, 122);
-    border: 5px rgb(68, 78, 66) groove;
-    text-align: center;
-    font-size: 40px;
-    margin: auto;
+    background-color: rgb(234, 189, 122); /*Sets the boxes color*/
+    border: 5px rgb(68, 78, 66) groove; /*Puts a groove border on the box*/
+    text-align: center; /*The text within the box is centered*/
+    font-size: 40px; /*The text has a font size of 40px*/
+    margin: auto; /*The margin is automatically adjusted to fit the container*/
 }
