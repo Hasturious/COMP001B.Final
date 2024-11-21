@@ -21,7 +21,18 @@
     margin: auto; /*The margin is automatically adjusted to fit the container*/
 }
 
-/*a:hover uses a psuedo type to only apply to the <a> element while the cursoe is "hovering" above*/
+/*abbr:hover uses a psuedo type to only apply to the <abbr> element while the cursor is "hovering" above*/
+abbr:hover {
+    color: blue;/*All abbr will become blue when the mouse is hovering over them*/
+}
+
+/*a:hover uses a psuedo type to only apply to the <a> element while the cursor is "hovering" above*/
 a:hover {
     color: darkblue;/*While the cursor is hovering above the element the color of the text gets darker*/
 }
+
+/*
+aside {
+    display: grid;
+}
+*/
