@@ -11,14 +11,12 @@
     padding: 10px;
 }
 
-/*The ">" specifies the header section of the intro class specfically*/
-.intro > header {
+/*The ">" specifies the h1 of the header section of the intro class specfically*/
+/*Wraps the header into a box with a border, unique font size, centered text, colored background and fitted margin*/
+.intro > header > h1 {
+    background-color: rgb(234, 189, 122);
     border: 5px rgb(68, 78, 66) groove;
     text-align: center;
-    font-size: 20px;
-}
-
-/**/
-.intro > header h1, h2 {
-    margin: 0;
+    font-size: 40px;
+    margin: auto;
 }
