@@ -20,3 +20,8 @@
     font-size: 40px; /*The text has a font size of 40px*/
     margin: auto; /*The margin is automatically adjusted to fit the container*/
 }
+
+/*a:hover uses a psuedo type to only apply to the <a> element while the cursoe is "hovering" above*/
+a:hover {
+    color: darkblue;/*While the cursor is hovering above the element the color of the text gets darker*/
+}
