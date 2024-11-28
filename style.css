@@ -14,7 +14,7 @@
 }
 
 
-.intro > header:first-child {
+.intro{
     grid-area: banner;
     background-color: rgb(234, 189, 122); 
     border: 8px rgb(68, 78, 66) groove; 
@@ -28,12 +28,10 @@
 
 
 #zen-supporting, #zen-summary, #zen-preamble{
+    all: unset;
     grid-area: main;
     color: red;
     width: auto;
-    margin: 0;
-    padding: 0;
-    text-align: left;
 }
 
 .sidebar {
