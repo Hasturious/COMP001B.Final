@@ -6,30 +6,34 @@
 .page-wrapper {
     display: grid;
     grid-template-areas:
-      'header header header header header header'
+      'banner banner banner banner banner banner'
       'main main main main right right'
       'footer footer footer footer footer footer';
     gap: 10px;
-    background-color: #2196F3;
     padding: 10px;
 }
 
-.intro{
-    grid-area: header;
+
+.intro > header:first-child {
+    grid-area: banner;
     background-color: rgb(234, 189, 122); 
-    /*
     border: 8px rgb(68, 78, 66) groove; 
     text-align: center; 
     font-size: 20px; 
-    width: 90%;
+    width: 50vw;
     height: 150px;
     margin: auto;
     margin-bottom: 15px;
-    */
 }
 
-#zen-supporting{
+
+#zen-supporting, #zen-summary, #zen-preamble{
     grid-area: main;
+    color: red;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 .sidebar {
