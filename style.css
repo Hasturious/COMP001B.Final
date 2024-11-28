@@ -1,39 +1,8 @@
-/*This ID embodies the entire page and turns it this greenish color*/
 #css-zen-garden {
     background-color: rgb(185, 185, 146);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*This class emboides the entire page and wraps it in a big grid*/
 .page-wrapper {
-    display: grid; /*Wraps entire page in a grid*/
-    gap: 10px; /*Each cell of the grid has a 10px gap*/
-    padding: 10px; /*Each cell has 10px of padding*/
-}
-
-/*The ">" specifies the h1 of the header section of the intro class specfically*/
-/*Wraps the header into a box with a border, unique font size, centered text, colored background and fitted margin*/
-.intro > header {
-    background-color: rgb(234, 189, 122); /*Sets the boxes color*/
-    border: 5px rgb(68, 78, 66) groove; /*Puts a groove border on the box*/
-    text-align: center; /*The text within the box is centered*/
-    font-size: 20px; /*The text has a font size of 40px*/
-    width: 600px;
-    height: 150px;
-    margin: auto;
-}
-
-/*abbr:hover uses a psuedo type to only apply to the <abbr> element while the cursor is "hovering" above*/
-abbr:hover {
-    color: blue;/*All abbr will become blue when the mouse is hovering over them*/
-}
-
-/*a:hover uses a psuedo type to only apply to the <a> element while the cursor is "hovering" above*/
-a:hover {
-    color: darkblue;/*While the cursor is hovering above the element the color of the text gets darker*/
-}
-
-.summary {
-    background-color: cadetblue;
-    padding: 2px;
+    /*blank for now*/
 }
