@@ -13,12 +13,14 @@
 
 /*The ">" specifies the h1 of the header section of the intro class specfically*/
 /*Wraps the header into a box with a border, unique font size, centered text, colored background and fitted margin*/
-.intro > header > h1 {
+.intro > header {
     background-color: rgb(234, 189, 122); /*Sets the boxes color*/
     border: 5px rgb(68, 78, 66) groove; /*Puts a groove border on the box*/
     text-align: center; /*The text within the box is centered*/
-    font-size: 40px; /*The text has a font size of 40px*/
-    margin: auto; /*The margin is automatically adjusted to fit the container*/
+    font-size: 20px; /*The text has a font size of 40px*/
+    width: 600px;
+    height: 150px;
+    margin: auto;
 }
 
 /*abbr:hover uses a psuedo type to only apply to the <abbr> element while the cursor is "hovering" above*/
@@ -31,8 +33,7 @@ a:hover {
     color: darkblue;/*While the cursor is hovering above the element the color of the text gets darker*/
 }
 
-/*
-aside {
-    display: grid;
+.summary {
+    background-color: cadetblue;
+    padding: 2px;
 }
-*/
