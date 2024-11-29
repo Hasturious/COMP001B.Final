@@ -20,7 +20,7 @@
 }
 
 [role="banner"] { /*[role="X"] is a selector type*/
-    width: 50vw; /*the width is now 50% of the view port*/
+    width: 30vw; /*the width is now 30% of the view port*/
     background-color: rgb(234, 189, 122); /*the selector is this background color*/
     border: 8px rgb(68, 78, 66) groove; /*draws a 4 sided grooved border around the selector*/
     margin: auto; /*centers the class within the container*/
@@ -28,7 +28,7 @@
 
 #zen-supporting {
     grid-area: main; /*Assigns this area to he main grid area above*/
-    width: 1200px; /*assigns the width of the ID*/
+    width: 60em; /*assigns the width of the ID*/
     margin: auto; /*centers the class within the container*/
     border-left: 4px ridge #f5ff97; /*adds a thin line on the left side ID*/
     padding: 3em; /*The space between the borders of the container content is 3x the fontsize*/
@@ -37,10 +37,11 @@
 .sidebar {
     grid-area: right; /*Assigns this area to the right grid area above*/
     flex: 1; /* Takes up 1/3 of the space */
-    padding: 2rem; /* Adjust padding as needed */
-    background-color: #e0e0e0; /* Slightly darker background */
-    border: 4px ridge #f5ff97; /* Optional border to separate the sections */
+    padding: 2rem; /*the padding from the content within the sidebar*/
+    background-color: #e0e0e0; /*sets the background color*/
+    border: 4px ridge #f5ff97; /*sets the border style*/
     height: fit-content; /*the hieght of the class is now dictated by the elements within the class*/
+    width: 10em;
     margin-right: 50px; /*There margin on the right of the container is bigger*/
 }
 
@@ -48,7 +49,9 @@ footer {
     grid-area: footer; /*Assigns this area to he footer grid area above*/
     position: absolute; /*Declares the selector postion as absolute so other containers do not interfere with it*/
     background-color: rgb(234, 189, 122);  /*sets the background color*/
-    width: 100vw; /*the width of the element is 100% of the view port*/
+    left: 0;
+    right: 0;
+    width: auto; /*the width of the element is 100% of the view port*/
     height: 3em; /*the hieght of the element is 3x the fontsize within*/
     text-align: center; /*the text is aligned in the center of its element*/
 }
