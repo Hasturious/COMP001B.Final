@@ -13,24 +13,22 @@
     padding: 10px;
 }
 
-
 .intro{
     grid-area: banner;
-    background-color: rgb(234, 189, 122); 
-    border: 8px rgb(68, 78, 66) groove; 
-    text-align: center; 
-    font-size: 20px; 
-    width: 50vw;
-    height: 150px;
+    text-align: center;  
     margin: auto;
-    margin-bottom: 15px;
+    border-bottom: 8px rgb(68, 78, 66) groove;
 }
 
+[role="banner"] {
+    width: 50vw;
+    background-color: rgb(234, 189, 122); 
+    border: 8px rgb(68, 78, 66) groove;
+    margin: auto;
+}
 
-#zen-supporting, #zen-summary, #zen-preamble{
-    all: unset;
+#zen-supporting {
     grid-area: main;
-    color: red;
     width: auto;
 }
 
@@ -40,9 +38,18 @@
     padding: 2rem; /* Adjust padding as needed */
     background-color: #e0e0e0; /* Slightly darker background */
     border-left: 2px solid #ccc; /* Optional border to separate the sections */
+    height: fit-content;
 }
 
-footer{
+footer {
     grid-area: footer;
+    position: absolute;
+    background-color: rgb(234, 189, 122); 
+    width: 100vw;
+    height: 3em;
     text-align: center;
+}
+
+a:hover {
+    color: darkblue;
 }
