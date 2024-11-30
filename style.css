@@ -62,6 +62,7 @@ footer {
     grid-area: footer; /*Assigns this area to he footer grid area above*/
     position: absolute; /*Declares the selector postion as absolute so other containers do not interfere with it*/
     background-color: rgb(234, 189, 122);  /*sets the background color*/
+    padding-top: 1em;
     left: 0; /*centers the footer*/
     right: 0; /*centers the footer*/
     width: auto; /*the width of the element is 100% of the view port*/
@@ -77,7 +78,62 @@ h3 {
     border-bottom: 4px ridge #f5ff97; /*all instances of H3 now have an underline*/
 }
 
-
 .preamble h3 {
     border: none; /*All instances but the first one. This just removes the underline from a specific instance of h3*/
+}
+
+/*Below is content in the footer that turns the simple links into icons with hover states*/
+/*The code follows a pattern - The first use of the class applies the image and the 2nd use of the class with the hover pseudo-class provides the opacity change*/
+
+.zen-validate-html {
+    content: url("image/htmlicon.png"); /*The desired image is linked*/
+    display: inline-block; /*inline block lets the element share a line with other elements and adjust the width/hieght*/
+    height: 2em; /*the adjusted heigth in this case*/
+}
+
+.zen-validate-html:hover {
+    opacity: .5; /*lowers the opacity of the image when hovered on*/
+}
+
+/*I then go on to repeat the above code but for each seperate class. If the footer had a div within it holding all the classes below I could have probably done something cleaner*/
+/*However this unwieldly solution seems to be the best as I do not want the entire footer to lower in opacity when hovered over. Just the Icons*/
+
+.zen-validate-css {
+    content: url("image/cssicon.png");
+    display: inline-block;
+    height: 2em;
+}
+
+.zen-validate-css:hover {
+    opacity: .5;
+}
+
+.zen-license {
+    content: url("image/ccicon.png");
+    display: inline-block;
+    height: 2em;
+}
+
+.zen-license:hover {
+    opacity: .5;
+}
+
+.zen-accessibility {
+    content: url("image/acsessicon.png");
+    display: inline-block;
+    height: 2em;
+}
+
+.zen-accessibility:hover {
+    opacity: .5;
+}
+
+.zen-github {
+    content: url("image/githubicon.png");
+    display: inline-block;
+    height: 2em;
+}
+
+.zen-github:hover {
+    opacity: .5;
 }
