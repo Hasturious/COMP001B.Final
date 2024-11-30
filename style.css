@@ -46,6 +46,20 @@
     margin: auto; /*centers the class*/
 }
 
+#zen-supporting::before {
+    margin: auto; /*centers the div*/
+    content: ""; /*without this the psuedo element would show no content. Not sure why this works but stackoverflow got me*/
+    display: block;
+    background-image: url("image/zenflower.jpg");
+    background-size: contain; /* Ensures the image is scaled to fit within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    width: 32em; /* Sets the width of the pseudo-element */
+    height: 20em; /* Sets a fixed height for the pseudo-element */
+    border: 8px rgb(68, 78, 66) groove; /*draws a 4 sided grooved border around the selector*/
+}
+
+
 .sidebar {
     margin-top: 6em; /*Adds spacing from the top of the container from the intro class above*/
     grid-area: right; /*Assigns this area to the right grid area above*/
@@ -68,6 +82,7 @@ footer {
     width: auto; /*the width of the element is 100% of the view port*/
     height: 3em; /*the hieght of the element is 3x the fontsize within*/
     text-align: center; /*the text is aligned in the center of its element*/
+    word-spacing: 10em;
 }
 
 a:hover {
