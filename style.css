@@ -1,8 +1,11 @@
-/*"Zen Garden" invokes a feeling of nature, peace, and order. This design uses colors assiociated with nature and */
+/*"Zen Garden" invokes a feeling of nature, peace, and order. This design uses colors assiociated with nature and thin but firm lines*/
+
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Oswald:wght@200..700&family=Quantico&family=Roboto&family=Zen+Loop:ital@0;1&family=Zen+Tokyo+Zoo&display=swap');
 
 #css-zen-garden {
     background-color: rgb(185, 185, 146); /*sets the background for the entire page*/
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /*declares the different fonts that will be used in the page*/
+    font-family: "Quantico", sans-serif; /*declares the different fonts that will be used in the page*/
+    font-weight: 10%;
 }
 
 .page-wrapper {
