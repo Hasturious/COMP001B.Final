@@ -28,12 +28,15 @@
 footer {
     grid-area: footer;
     border: 10px red solid;
-    grid-area: footer;
+    position: absolute;
+    padding: auto;
+    bottom: ;
 }
 
-.explantion, .participation, .benefits, .requirements {
+#zen-supporting {
     grid-area: main;
     border: 10px red solid;
+    height: fit-content;
 }
 
 .intro {
