@@ -36,6 +36,7 @@
     padding: 3em; /*The space between the borders of the container content is 3x the fontsize*/
 }
 
+
 .summary {
     border-bottom: 4px ridge #f5ff97; /*Gives the summary an underline*/
     width: 30vw; /*Sets the border to the same as the banner by using 30% of the viewport*/
@@ -72,6 +73,7 @@ a:hover {
 h3 {
     border-bottom: 4px ridge #f5ff97; /*all instances of H3 now have an underline*/
 }
+
 
 .preamble h3 {
     border: none; /*All instances but the first one. This just removes the underline from a specific instance of h3*/
