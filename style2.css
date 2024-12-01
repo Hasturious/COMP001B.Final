@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Honk&family=Jura:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap'); /*font import*/
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Jura:wght@300..700&display=swap'); /*font import*/
 
 #css-zen-garden::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1920px;
-    height: 1080px;
-    object-fit: fill;
-    background-image: url(image/neonbackground.jpg);
-    opacity: 0.8; /* Set the opacity level */
-    z-index: -1; /* Sends the image behind other content */
+    content: ""; /*Creates the element thats made before the #css-zen-garden element Im using to add the image without messing with the rest of the file.*/
+    position: absolute; /*Postions the element (or pseudo element in case) absolutely compared to other elements*/
+    top: 0; /*postions to the top most spot*/
+    left: 0; /*postiions to the left most spot. without it thered be a margin on the edge of the webpage*/
+    width: 100%; /*Sets the width to fit the entire page*/
+    height: 100%; /*Sets the hieght to fit the entire page*/
+    background-image: url(image/neonbackground.jpg); /**/
+    opacity: 0.8; /*Set the opacity level*/
+    z-index: -1; /*Sends the image behind other content*/
 }
 
 .page-wrapper {
@@ -59,7 +58,7 @@ footer {
     height: 140px; /*the hieght of the element is 3x the fontsize within*/
     text-align: center; /*the text is aligned in the center of its element*/
     word-spacing: 200px;
-
+    font-size: 20px;
 }
 
 [role="contentinfo"] {
