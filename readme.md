@@ -1,3 +1,3 @@
-Author - Jean Bryant Figueroa
+Hasturious.github.io
 
-Purpose - COMP001B Final
+Author - Jean Bryant Figueroa Purpose - COMP001B Final Project Repository URL - https://github.com/Hasturious/Hasturious.github.io
